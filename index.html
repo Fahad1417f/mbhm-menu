@@ -6,41 +6,112 @@
 <meta name="theme-color" content="#120003">
 <meta name="description" content="مبهم كافيه — قهوة مختصة">
 <title>مبهم كافيه</title>
-<link rel="stylesheet" href="styles.css?v=8">
+<link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
 <main>
-<section class="home-art" aria-label="مبهم كافيه">
-  <img src="home.webp?v=8" decoding="sync" fetchpriority="high"
-       alt="مبهم كافيه — أكثر من قهوة — خصم 50% على جميع المشروبات يوم الجمعة">
-  <a class="hit menu-hit" href="#menu" aria-label="فتح القائمة"></a>
-  <a class="hit cart-hit" href="#menu" aria-label="عرض القائمة"></a>
-  <a class="hit hot-hit" href="#hot" aria-label="المشروبات الساخنة"></a>
-  <a class="hit cold-hit" href="#cold" aria-label="المشروبات الباردة"></a>
-  <a class="hit dessert-hit" href="#desserts" aria-label="الحلى"></a>
-  <a class="hit hours-hit" href="#hours" aria-label="أوقات العمل"></a>
-  <a class="hit reviews-hit" href="#reviews" aria-label="تقييماتنا"></a>
-  <a class="hit contact-hit" href="#contact" aria-label="تواصل معنا"></a>
-  <a class="hit location-hit" href="#location" aria-label="الموقع"></a>
-</section>
+  <section class="home-art" aria-label="مبهم كافيه">
+    <img src="home.webp?v=8" decoding="sync" fetchpriority="high"
+      alt="مبهم كافيه — أكثر من قهوة — خصم 50% على جميع المشروبات يوم الجمعة">
+    <a class="hit menu-hit" href="#hot" aria-label="فتح القائمة"></a>
+    <a class="hit cart-hit" href="#hot" aria-label="عرض القائمة"></a>
+    <a class="hit hot-hit" href="#hot" aria-label="المشروبات الساخنة"></a>
+    <a class="hit cold-hit" href="#cold" aria-label="المشروبات الباردة"></a>
+    <a class="hit dessert-hit" href="#desserts" aria-label="الحلى"></a>
+    <a class="hit hours-hit" href="#hours" aria-label="أوقات العمل"></a>
+    <a class="hit reviews-hit" href="#reviews" aria-label="تقييماتنا"></a>
+    <a class="hit contact-hit" href="#contact" aria-label="تواصل معنا"></a>
+    <a class="hit location-hit" href="#location" aria-label="الموقع"></a>
+  </section>
 
-<section id="menu" class="menu-page" aria-label="قائمة المشروبات والحلى">
-  <div class="section" id="hot"><h2>المشروبات الساخنة</h2><div class="line"></div><ul>
-    <li><span>إسبريسو</span><b>10</b></li><li><span>أمريكانو</span><b>12</b></li><li><span>ميكاتو</span><b>10</b></li><li><span>كورتادو</span><b>12</b></li><li><span>كابتشينو</span><b>15</b></li><li><span>لاتيه</span><b>16</b></li><li><span>سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li>
-  </ul></div>
-  <div class="section" id="cold"><h2>المشروبات الباردة</h2><div class="line"></div><ul>
-    <li><span>آيس أمريكانو</span><b>12</b></li><li><span>آيس لاتيه</span><b>16</b></li><li><span>آيس سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li><li><span>كركديه كبير</span><b>10</b></li>
-  </ul></div>
-  <div class="section" id="desserts"><h2>الحلى</h2><div class="line"></div><ul>
-    <li><span>كوكيز</span><b>10</b></li><li><span>سينابون</span><b>18</b></li><li><span>كيكة عسل</span><b>20</b></li><li><span>دوليتشي</span><b>20</b></li><li><span>سولتد كراميل بيكان</span><b>22</b></li><li><span>تشيز كيك مدريد</span><b>24</b></li><li><span>سينابون الحليب المحموس</span><b>20</b></li><li><span>كرنشي كيك</span><b>24</b></li><li><span>لندن كيك</span><b>22</b></li>
-  </ul></div>
-  <div id="hours" class="info"><h2>أوقات العمل</h2><p>يوميًا حسب ساعات العمل المعتمدة.</p></div>
-  <div id="reviews" class="info"><h2>تقييماتنا</h2><p>نسعد بتقييمكم وتجربتكم.</p></div>
-  <div id="contact" class="info"><h2>تواصل معنا</h2><p>تواصل مع MBHM Cafe عبر القنوات الرسمية.</p></div>
-  <div id="location" class="info"><h2>الموقع</h2><p>اضغط هنا لإضافة رابط الموقع المعتمد.</p></div>
-</section>
+  <section id="menu" class="menu-shell" aria-label="قائمة مبهم">
+    <header class="menu-hero">
+      <a class="round-button back-home" href="#" aria-label="العودة للرئيسية">‹</a>
+      <div class="menu-logo">
+        <div class="brand">مُبهم</div>
+        <div class="brand-sub">قهوة مختصة</div>
+        <div class="script">menu</div>
+      </div>
+      <div class="ornament">◆</div>
+    </header>
+
+    <nav class="menu-tabs" aria-label="أقسام المنيو">
+      <a href="#hot" data-route="hot">المشروبات الساخنة</a>
+      <a href="#cold" data-route="cold">المشروبات الباردة</a>
+      <a href="#desserts" data-route="desserts">الحلى</a>
+    </nav>
+
+    <section class="menu-section" data-page="hot" id="hot">
+      <h1>المشروبات الساخنة</h1>
+      <div class="gold-rule"></div>
+      <ul class="items">
+        <li><span>إسبريسو</span><b>10</b></li>
+        <li><span>أمريكانو</span><b>12</b></li>
+        <li><span>ميكاتو</span><b>10</b></li>
+        <li><span>كورتادو</span><b>12</b></li>
+        <li><span>كابتشينو</span><b>15</b></li>
+        <li><span>لاتيه</span><b>16</b></li>
+        <li><span>سبانش لاتيه</span><b>18</b></li>
+        <li><span>ماتشا</span><b>18</b></li>
+        <li><span>قهوة اليوم كبير</span><b>10</b></li>
+        <li><span>V60</span><b>18</b></li>
+        <li><span>V60 فاخر</span><b>21</b></li>
+        <li><span>فلات وايت</span><b>13</b></li>
+        <li><span>آيس وايت موكا</span><b>22</b></li>
+      </ul>
+    </section>
+
+    <section class="menu-section" data-page="cold" id="cold">
+      <h1>المشروبات الباردة</h1>
+      <div class="gold-rule"></div>
+      <ul class="items">
+        <li><span>آيس أمريكانو</span><b>12</b></li>
+        <li><span>آيس لاتيه</span><b>16</b></li>
+        <li><span>آيس سبانش لاتيه</span><b>18</b></li>
+        <li><span>ماتشا</span><b>18</b></li>
+        <li><span>قهوة اليوم كبير</span><b>10</b></li>
+        <li><span>V60</span><b>18</b></li>
+        <li><span>V60 فاخر</span><b>21</b></li>
+        <li><span>فلات وايت</span><b>13</b></li>
+        <li><span>آيس وايت موكا</span><b>22</b></li>
+        <li><span>كركديه كبير</span><b>10</b></li>
+      </ul>
+    </section>
+
+    <section class="menu-section desserts-page" data-page="desserts" id="desserts">
+      <h1>الحلى</h1>
+      <div class="gold-rule"></div>
+      <ul class="items">
+        <li><span>كوكيز</span><b>10</b></li>
+        <li><span>سينابون</span><b>18</b></li>
+        <li><span>كيكة عسل</span><b>20</b></li>
+        <li><span>دوليتشي</span><b>20</b></li>
+        <li><span>سولتد كراميل بيكان</span><b>22</b></li>
+        <li><span>تشيز كيك مدريد</span><b>24</b></li>
+        <li><span>سينابون الحليب المحموس</span><b>20</b></li>
+        <li><span>كرنشي كيك</span><b>24</b></li>
+        <li><span>لندن كيك</span><b>22</b></li>
+      </ul>
+    </section>
+
+    <div class="menu-decoration" aria-hidden="true">
+      <span class="frame"></span><span class="branch">✦</span>
+    </div>
+
+    <section class="info-grid">
+      <div id="hours" class="info-card"><span class="info-icon">◷</span><h2>أوقات العمل</h2><p>يوميًا حسب ساعات العمل المعتمدة.</p></div>
+      <div id="reviews" class="info-card"><span class="info-icon">★</span><h2>تقييماتنا</h2><p>نسعد بتقييمكم وتجربتكم.</p></div>
+      <div id="contact" class="info-card"><span class="info-icon">◉</span><h2>تواصل معنا</h2><p>تواصل مع MBHM Cafe عبر القنوات الرسمية.</p></div>
+      <div id="location" class="info-card"><span class="info-icon">●</span><h2>الموقع</h2><p>اضغط هنا لإضافة رابط الموقع المعتمد.</p></div>
+    </section>
+
+    <footer class="menu-footer">
+      <div>✦</div>
+      <p>GOOD COFFEE&nbsp;&nbsp; BETTER DAYS</p>
+      <small>MBHM CAFÉ</small>
+    </footer>
+  </section>
 </main>
-<footer><div>✦</div><p>GOOD COFFEE&nbsp;&nbsp; BETTER DAYS</p><small>MBHM CAFÉ</small></footer>
-<script src="script.js?v=4"></script>
+<script src="script.js?v=7"></script>
 </body>
 </html>
