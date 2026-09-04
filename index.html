@@ -1,32 +1,68 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#180002"><meta name="description" content="مبهم كافيه — قائمة المشروبات والحلى">
-<title>مبهم كافيه | Menu</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#210003">
+<meta name="description" content="مبهم كافيه — قهوة مختصة">
+<title>مبهم كافيه</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="curtain curtain-a"></div><div class="curtain curtain-b"></div><div class="grain"></div>
-<header class="hero">
-  <div class="logo" aria-label="مبهم قهوة مختصة"><span class="logo-mark">≈</span><span class="logo-ar">مبهم</span><span class="logo-sub">قهوة<br>مختصة</span></div>
-  <p class="eyebrow">قائمة مختارة</p><div class="ornament"><i></i><span>✦</span><i></i></div>
+<div class="velvet"></div>
+<header class="topbar">
+  <button class="menu-btn" aria-label="القائمة"><span></span><span></span><span></span></button>
 </header>
-<main class="menu">
-<section class="menu-grid">
-<article class="menu-column"><h2>المشروبات الساخنة</h2><div class="rule"></div><ul>
-<li><span>إسبريسو</span><b>10</b></li><li><span>أمريكانو</span><b>12</b></li><li><span>ميكاتو</span><b>10</b></li><li><span>كورتادو</span><b>12</b></li><li><span>كابتشينو</span><b>15</b></li><li><span>لاتيه</span><b>16</b></li><li><span>سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li>
-</ul></article>
-<article class="menu-column"><h2>المشروبات الباردة</h2><div class="rule"></div><ul>
-<li><span>آيس أمريكانو</span><b>12</b></li><li><span>آيس لاتيه</span><b>16</b></li><li><span>آيس سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li><li><span>كركديه كبير</span><b>10</b></li>
-</ul></article>
+
+<main>
+<section class="hero" aria-label="مبهم كافيه">
+  <div class="brand">
+    <div class="brand-mark">≈</div>
+    <div class="brand-name">مبهم</div>
+    <div class="brand-sub">قهوة<br>مختصة</div>
+  </div>
+
+  <div class="offer">
+    <div class="offer-main"><span class="offer-word">خصم</span> <strong>50<small>%</small></strong></div>
+    <div class="offer-title">على جميع المشروبات</div>
+    <div class="offer-time">يوم الجمعة من الساعة 1 ظهرًا حتى 3 عصرًا</div>
+    <span class="offer-arrow">›</span>
+  </div>
+
+  <div class="stage">
+    <div class="cup"><div class="coffee"></div><div class="cup-logo">مبهم</div></div>
+    <div class="cake"><div class="cake-top"></div><div class="cake-layer"></div><div class="cake-layer"></div><div class="cake-layer"></div></div>
+  </div>
+
+  <nav class="categories" aria-label="أقسام القائمة">
+    <a href="#hot"><span class="ico">♨</span><b>المشروبات الساخنة</b><i>›</i></a>
+    <a href="#cold"><span class="ico">🥤</span><b>المشروبات الباردة</b><i>›</i></a>
+    <a href="#desserts"><span class="ico">♢</span><b>الحلى</b><i>›</i></a>
+  </nav>
+
+  <div class="quick">
+    <a href="#hours"><span>◷</span>أوقات العمل</a>
+    <a href="#reviews"><span>★</span>تقييماتنا</a>
+    <a href="#contact"><span>◉</span>تواصل معنا</a>
+    <a href="#location"><span>⌖</span>الموقع</a>
+  </div>
 </section>
-<section class="desserts"><h2>الحلى</h2><div class="rule"></div><ul>
+
+<section class="menu-page">
+  <div class="section" id="hot"><h2>المشروبات الساخنة</h2><div class="line"></div><ul>
+<li><span>إسبريسو</span><b>10</b></li><li><span>أمريكانو</span><b>12</b></li><li><span>ميكاتو</span><b>10</b></li><li><span>كورتادو</span><b>12</b></li><li><span>كابتشينو</span><b>15</b></li><li><span>لاتيه</span><b>16</b></li><li><span>سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li>
+</ul></div>
+  <div class="section" id="cold"><h2>المشروبات الباردة</h2><div class="line"></div><ul>
+<li><span>آيس أمريكانو</span><b>12</b></li><li><span>آيس لاتيه</span><b>16</b></li><li><span>آيس سبانش لاتيه</span><b>18</b></li><li><span>ماتشا</span><b>18</b></li><li><span>قهوة اليوم كبير</span><b>10</b></li><li><span>V60</span><b>18</b></li><li><span>V60 فاخر</span><b>21</b></li><li><span>فلات وايت</span><b>13</b></li><li><span>آيس وايت موكا</span><b>22</b></li><li><span>كركديه كبير</span><b>10</b></li>
+</ul></div>
+  <div class="section" id="desserts"><h2>الحلى</h2><div class="line"></div><ul>
 <li><span>كوكيز</span><b>10</b></li><li><span>سينابون</span><b>18</b></li><li><span>كيكة عسل</span><b>20</b></li><li><span>دوليتشي</span><b>20</b></li><li><span>سولتد كراميل بيكان</span><b>22</b></li><li><span>تشيز كيك مميز</span><b>24</b></li><li><span>سينابون الحليب المحموس</span><b>20</b></li><li><span>كرنشي كيك</span><b>24</b></li><li><span>نيوتن كيك</span><b>22</b></li>
-</ul></section>
+</ul></div>
+</section>
 </main>
-<footer><div class="ornament"><i></i><span>✦</span><i></i></div><p>MBHM CAFÉ</p><small>قهوة مختصة</small></footer>
+<footer><div class="star">✦</div><p>GOOD COFFEE&nbsp;&nbsp; BETTER DAYS</p><small>MBHM CAFÉ</small></footer>
 <script src="script.js"></script>
 </body></html>
