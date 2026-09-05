@@ -76,3 +76,5 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
 .location-card{color:inherit;text-decoration:none;cursor:pointer}.location-card:active{transform:translateY(1px)}
 
 .social-card{color:inherit;text-decoration:none;cursor:pointer}.social-card:active{transform:translateY(1px)}
+
+.reviews-card{color:inherit;text-decoration:none;cursor:pointer}.reviews-card:active{transform:translateY(1px)}.google-stars{letter-spacing:3px;font-size:1.15rem;margin:.35rem 0;color:var(--gold)}
