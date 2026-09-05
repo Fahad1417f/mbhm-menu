@@ -76,3 +76,5 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
 .social-card{color:inherit;text-decoration:none;cursor:pointer}.social-card:active{transform:translateY(1px)}
 
 .reviews-card{color:inherit;text-decoration:none;cursor:pointer}.reviews-card:active{transform:translateY(1px)}.google-stars{letter-spacing:3px;font-size:1.15rem;margin:.35rem 0;color:var(--gold)}
+
+.qr-card{color:inherit;text-decoration:none;cursor:pointer;text-align:center;padding:34px 12px;border-bottom:1px solid rgba(214,179,92,.16);min-height:150px}.qr-card:active{transform:translateY(1px)}
