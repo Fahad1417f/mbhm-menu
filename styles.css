@@ -3,8 +3,8 @@
 html{scroll-behavior:smooth;scroll-padding-top:18px}
 body{margin:0;background:#090001;color:var(--cream);font-family:Georgia,"Times New Roman",serif}
 main{min-height:100vh}
-.home-art{position:relative;width:min(100vw,864px);margin:0 auto;line-height:0;background:#120003;overflow:hidden}
-.home-art img{display:block;width:100%;height:auto;max-width:100%;image-rendering:auto;transform:translateZ(0);backface-visibility:hidden;-webkit-backface-visibility:hidden;filter:contrast(1.025) saturate(1.02)}
+.home-art{position:relative;width:min(100vw,941px);margin:0 auto;line-height:0;background:#120003;overflow:hidden}
+.home-art img{display:block;width:100%;height:auto;max-width:100%;image-rendering:auto;transform:translateZ(0);backface-visibility:hidden;-webkit-backface-visibility:hidden;filter:url(#home-sharpen) contrast(1.035) saturate(1.02)}
 .hit{position:absolute;display:block;z-index:4;cursor:pointer;border-radius:24px;-webkit-tap-highlight-color:transparent}
 .hit:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .menu-hit{top:2.2%;left:2.8%;width:12%;height:8%}
