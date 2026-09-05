@@ -5,6 +5,11 @@ body{margin:0;background:#090001;color:var(--cream);font-family:Georgia,"Times N
 main{min-height:100vh}
 .home-art{position:relative;width:min(100vw,864px);margin:0 auto;line-height:0;background:#120003;overflow:hidden}
 .home-art img{display:block;width:100%;height:auto;max-width:100%;image-rendering:auto;transform:none;backface-visibility:visible;-webkit-backface-visibility:visible;filter:none;-webkit-font-smoothing:antialiased}
+.home-art:before,.home-art:after{content:"";position:absolute;z-index:3;pointer-events:none;border-radius:50%;filter:blur(2px);background:radial-gradient(circle at 50% 50%,rgba(35,0,3,.92) 0 42%,rgba(35,0,3,.55) 62%,rgba(35,0,3,0) 100%)}
+.home-art:before{top:3.2%;left:3.4%;width:7%;height:5.2%}
+.home-art:after{top:3.2%;right:3.4%;width:7%;height:5.2%;box-shadow:0 0 0 0 transparent}
+/* cover the non-functional promo arrow embedded in the artwork */
+.home-art{isolation:isolate}
 .hit{position:absolute;display:block;z-index:4;cursor:pointer;border-radius:24px;-webkit-tap-highlight-color:transparent;touch-action:manipulation;outline:none}
 .hit:focus-visible{outline:2px solid var(--gold);outline-offset:3px}.hit:active{background:rgba(214,179,92,.10);box-shadow:inset 0 0 0 1px rgba(214,179,92,.28)}
 .menu-hit{top:2.2%;left:2.8%;width:12%;height:8%}
@@ -78,3 +83,7 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
 .reviews-card{color:inherit;text-decoration:none;cursor:pointer}.reviews-card:active{transform:translateY(1px)}.google-stars{letter-spacing:3px;font-size:1.15rem;margin:.35rem 0;color:var(--gold)}
 
 .qr-card{color:inherit;text-decoration:none;cursor:pointer;text-align:center;padding:34px 12px;border-bottom:1px solid rgba(214,179,92,.16);min-height:150px}.qr-card:active{transform:translateY(1px)}
+
+/* Remove the decorative promo arrow from the source artwork without changing the approved layout. */
+.home-art .hot-hit{ }
+.home-art .hot-hit::before{content:"";position:absolute;right:-3%;top:-310%;width:28%;height:90%;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,rgba(45,0,3,.92) 0 48%,rgba(45,0,3,.55) 70%,rgba(45,0,3,0) 100%);filter:blur(2px)}
