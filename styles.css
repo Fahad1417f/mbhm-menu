@@ -72,3 +72,5 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
  .items li b{font-size:17px;min-width:34px}
  .info-grid{grid-template-columns:1fr;margin:0 14px}
 }
+
+.location-card{color:inherit;text-decoration:none;cursor:pointer}.location-card:active{transform:translateY(1px)}
