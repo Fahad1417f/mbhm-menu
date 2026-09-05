@@ -28,7 +28,6 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
 .menu-hero:before,.menu-hero:after{content:"";position:absolute;top:18px;width:46%;height:22px;background:radial-gradient(circle,rgba(255,239,201,.9) 0 2px,transparent 3px) 0 0/48px 18px,linear-gradient(165deg,transparent 48%,rgba(218,184,102,.7) 49% 51%,transparent 52%);opacity:.9}
 .menu-hero:before{right:0;transform:rotate(-3deg)}
 .menu-hero:after{left:0;transform:scaleX(-1) rotate(-3deg)}
-.round-button{position:absolute;top:62px;right:18px;width:52px;height:52px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--cream);font-size:38px;line-height:1;text-decoration:none;background:rgba(25,0,4,.42);z-index:2}
 .menu-logo{display:flex;justify-content:center;align-items:center;position:relative;height:112px;margin:0 auto;overflow:visible}
 .brand-logo{display:block;width:300px;height:auto;max-width:72vw;object-fit:contain;filter:drop-shadow(0 2px 7px rgba(0,0,0,.55))}
 .ornament{color:var(--gold);font-size:12px;margin-top:27px}
@@ -62,7 +61,6 @@ linear-gradient(180deg,#250006,#120002 52%,#210005);box-shadow:inset 0 0 90px rg
  .menu-hero{min-height:190px;padding-top:60px}
  .menu-logo{height:104px}
  .brand-logo{width:285px;max-width:78vw}
- .round-button{width:46px;height:46px;font-size:34px}
  .menu-tabs{margin:0 14px 22px}
  .menu-tabs a{font-size:13px;padding:9px 2px}
  .menu-section{padding:4px 22px 28px;min-height:540px}
@@ -91,7 +89,6 @@ body{min-width:320px;overflow-x:hidden}
 @media (min-width:601px) and (max-width:1100px){
   .menu-hero{padding-top:clamp(54px,7vw,70px)}
   .brand-logo{width:clamp(270px,34vw,330px)}
-  .round-button{top:clamp(54px,7vw,70px)}
   .menu-tabs{margin-left:clamp(18px,3vw,30px);margin-right:clamp(18px,3vw,30px)}
   .menu-section{padding-left:clamp(26px,4vw,44px);padding-right:clamp(26px,4vw,44px)}
 }
@@ -101,7 +98,6 @@ body{min-width:320px;overflow-x:hidden}
   .menu-hero{padding-top:max(52px,env(safe-area-inset-top));padding-left:14px;padding-right:14px}
   .menu-logo{height:clamp(92px,25vw,112px)}
   .brand-logo{width:min(300px,76vw);max-width:76vw}
-  .round-button{top:max(52px,env(safe-area-inset-top));right:14px}
   .menu-tabs{gap:4px;margin-left:10px;margin-right:10px}
   .menu-tabs a{font-size:clamp(12px,3.4vw,14px);padding:9px 2px}
   .menu-section{padding-left:clamp(16px,5vw,26px);padding-right:clamp(16px,5vw,26px)}
@@ -121,7 +117,6 @@ body{min-width:320px;overflow-x:hidden}
   .menu-hero{padding-top:34px;min-height:145px}
   .menu-logo{height:76px}
   .brand-logo{width:230px}
-  .round-button{top:34px;width:44px;height:44px}
   .menu-tabs{margin-bottom:16px}
 }
 @media (prefers-reduced-motion:reduce){
