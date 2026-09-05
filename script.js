@@ -26,7 +26,6 @@ function route(){
     document.getElementById(hash)?.scrollIntoView({block:'start'});
   } else showHome();
 }
-document.querySelector('.back-home')?.addEventListener('click',e=>{e.preventDefault();history.pushState({},'',location.pathname);showHome()});
 tabs.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();const name=t.dataset.route;history.pushState({},'',location.pathname+'#'+name);showPage(name)}));
 window.addEventListener('popstate',route);
 window.addEventListener('hashchange',route);
